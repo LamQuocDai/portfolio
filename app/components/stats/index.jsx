@@ -6,20 +6,23 @@ import SectionTitle from "../helper/section-title";
 
 function GitStats() {
   return (
-    <div id="stats" className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]">
+    <div
+      id="stats"
+      className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]"
+    >
       <SectionTitle title="GitHub Statistics" />
 
       <div className="py-8 grid grid-cols-1 md:grid-cols-2 gap-5">
         <div className="md:col-span-2">
           <GlowCard identifier="profile-details">
             <div className="bg-primary-bg">
-            <Image
-              src={`http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=${userData.githubUser}&theme=algolia`}
-              width={1080}
-              height={520}
-              alt="github profile-details"
-              className="rounded-lg "
-            />
+              <Image
+                src={`https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=${userData.githubUser}&theme=algolia`}
+                width={1080}
+                height={520}
+                alt="github profile-details"
+                className="rounded-lg "
+              />
             </div>
           </GlowCard>
         </div>
@@ -46,6 +49,6 @@ function GitStats() {
       </div>
     </div>
   );
-};
+}
 
 export default GitStats;
