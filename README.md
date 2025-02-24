@@ -1,12 +1,17 @@
 # GitHub Portfolio
 
-### If you're struggling to create a portfolio website that looks professional, you don't have to search any further. You can use this GitHub Portfolio template to create your very own personalized portfolio using just your GitHub username! The website is designed to be user-friendly and easily customizable, which makes it an ideal solution for developers and freelancers alike.
+### Welcome to My Portfolio!
+
+Hello! I’m a passionate Fullstack Developer with expertise in React, TypeScript, Java, and Odoo. Currently, I’m a final-year Software Engineering student, eager to apply my knowledge to real-world projects.
+
+In this portfolio, you’ll find a collection of my work, showcasing my skills in frontend and backend development, database management, and system design. I’m always excited to learn new technologies and tackle challenging problems.
+Feel free to explore my projects, and let’s connect if you’re interested in working together! 
 
 ---
 
 # Demo :movie_camera:
 
-![httpsgithub abusaid me](https://github.com/said7388/github-portfolio/assets/77630868/a331f996-1b4d-451a-941f-a15f5ae6de93)
+![httpsgithub abusaid me](public/portfolio.png)
 
 
 ## View live preview [here](https://my-github-portfolio.netlify.app/)
