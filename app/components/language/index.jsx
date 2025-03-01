@@ -13,7 +13,7 @@ function GitLanguage() {
         <>
           <GlowCard identifier="repos-per-language">
             <Image
-              src={`http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=${userData.githubUser}&theme=algolia`}
+              src={`https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=${userData.githubUser}&theme=algolia`}
               width={1080}
               height={560}
               alt="github repos-per-language"
@@ -23,7 +23,7 @@ function GitLanguage() {
 
           <GlowCard identifier="most-commit-language">
             <Image
-              src={`http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=${userData.githubUser}&theme=algolia`}
+              src={`https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=${userData.githubUser}&theme=algolia`}
               width={1080}
               height={560}
               alt="github most-commit-language"
